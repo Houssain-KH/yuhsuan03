@@ -143,16 +143,35 @@ p {
   font-weight: bold;
   padding: 16px 42px;
   margin-top: 40px;
+
   transition: all 0.4s ease-in-out;
 }
 #home .btn:hover {
   background: #404040;
+
   color: #ffffff;
 }
 
+.following{
+  background: transparent;
+  border-radius: 0;
+  border: 3px solid #404040;
+  color: #404040;
+  font-weight: bold;
+  padding: 16px 42px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  transition: all 0.4s ease-in-out;
+}
+.following:hover{
+  background: #404040;
+  color: #ffffff;
+  border-color: #404040 !important;
+}
 /* about section */
 #about{
   background-color: #86a697;
+  height: 100vh;
 }
 #about .col-md-4 .fa {
   background: #86a697;
@@ -193,6 +212,7 @@ p {
   padding-top: 100px;
   background: #f9f9f9;
   text-align: center;
+  height: 100vh;
   }
 #portfolio .container {
   width: 100%;
