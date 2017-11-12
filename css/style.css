@@ -222,6 +222,7 @@ p {
     margin: 4px;
 }
 .filter-wrapper li a {
+  font-family: 'Spectral SC', serif; font-weight: 300 !important; 
     color: #999999;
     font-size: 13px;
     font-weight: bold;
@@ -289,11 +290,12 @@ p {
 
 /* contact section */
 #contact {
-  background: #f9f9f9;
+  background: #F5F5F5;
   text-align: center;
 }
 #contact .fa {
-  font-size: 40px;
+  font-size: 30px;
+  color: #86a697;
 }
 #contact form {
   padding-top: 80px;
@@ -306,28 +308,27 @@ p {
   transition: all 0.4s ease-in-out;
 }
 #contact .form-control:focus {
-  border: 2px solid #808080;
+  border: 2px solid #404040;
 }
 #contact input {
   height: 50px;
 }
 #contact input[type="submit"] {
-  border: 2px solid #808080;
+  border: 2px solid #404040;
   margin-top: 18px;
   height: 54px;
 }
 #contact input[type="submit"]:hover {
-  background: #808080;
+  background: #404040;
   color: #ffffff;
 }
 #contact textarea {
   height: 170px;
 }
-.contact-info-box h3 { font-size: 16px; }
+.contact-info-box h3 { font-size: 14px; }
 
 /* footer section */
 footer {
-  background: url('../images/06.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top;
@@ -436,7 +437,18 @@ footer {
   }
 }
 
+.servicess{
+  border: solid 3px #86a697; 
+  padding: 25px;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  transition: all 0.7s;
+}
 
+.servicess:hover{
+  color: white;
+  background-color: #86a697;
+}
 
 
 
