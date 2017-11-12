@@ -171,7 +171,7 @@ p {
 /* about section */
 #about{
   background-color: #86a697;
-  height: 100vh;
+  height: ;
 }
 #about .col-md-4 .fa {
   background: #86a697;
@@ -212,7 +212,7 @@ p {
   padding-top: 100px;
   background: #f9f9f9;
   text-align: center;
-  height: 100vh;
+  height: ;
   }
 #portfolio .container {
   width: 100%;
@@ -312,10 +312,12 @@ p {
 #contact {
   background: #F5F5F5;
   text-align: center;
+  height: ;
 }
 #contact .fa {
   font-size: 30px;
   color: #86a697;
+
 }
 #contact form {
   padding-top: 80px;
