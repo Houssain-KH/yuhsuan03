@@ -79,15 +79,18 @@ p {
 	transition: all 0.3s ease-in-out;
 }
 .custom-navbar .nav li a:hover {
+	color : white;
   	background: #86a697;
   	transition: all 0.3s ease-in-out;
 }
 .custom-navbar .nav > li > a:focus {
+	color: white;
   	background-color: transparent;
   	outline: none;
 }
 .custom-navbar .nav li.active > a {
     background-color: #86a697;
+    color: white;
 }
 .custom-navbar .navbar-toggle {
     border: none;
@@ -110,7 +113,9 @@ p {
             border-bottom: 1px solid #eeeeee;
         }
 }
-
+.design {
+	width: 50% !important;
+}
 /* home section */
 #home {
   /*background: url('../images/03.jpg') no-repeat;*/
